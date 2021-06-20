@@ -5,33 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="calculator.css">
     <title>proble(math)ic</title>
 </head>
 <body>
 <nav style="border-color:rgb(146, 28, 236) ;background-color:rgb(146, 28, 236) ;color: rgb(146, 28, 236);" class="navbar navbar-expand-lg ">
     <div class="container-fluid">
-          <a class="navbar-brand" href="home.html"><img style="width: 220px;height: 505;" src="Screenshot (534).png"></a>
+          <a class="navbar-brand" href="home.html"><img style="width: 220px;height: 40px;" src="Screenshot (534).png"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div style="display: flex;"  class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div style="margin-left: auto;" class="dropdown">
-                <a class="btn btn-warning dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-
-             <ul  class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item" href="#">fdion</a></li>
-                <li><a class="dropdown-item" href="#">Anfer action</a></li>
-                <li><a class="dropdown-item" href="#">Sometfng exhere</a></li>
-            </ul>
+        </div>
+        <div style = "display: flex;">
+        <a style="color: black;" class="nav-link" href="matematika.html"><img style="height: 30px;" src="Screenshot (551).png" alt=""></a>
+        <a style="color: black;" class="nav-link" href="fizika.html"><img style="height: 30px;" src="Screenshot (554).png"> </a>
         </div>
     </div>
  </div>
 </nav>
-<br>
-<br>
-<br>
+
+<div class="calculator">
+    <img style="width: 400px; display:block; margin:auto;" src="Screenshot (561).png" alt="calculator">
+    <div class="output">
+        
+        <div data-operent1 class="operand1"></div>
+        <div data-operent2 class="operand2"></div>
+    </div>
+<button data-ac class="gilaki">AC</button>
+<button data-del>DEL</button>
+<button data-operation>÷</button>
+<button data-number>1</button>
+<button data-number>2</button>
+<button data-number>3</button>
+<button data-operation>*</button>
+<button data-number>4</button>
+<button data-number>5</button>
+<button data-number>6</button>
+<button data-operation>+</button>
+<button data-number>7</button>
+<button data-number>8</button>
+<button data-number>9</button>
+<button data-operation>-</button>
+<button data-number>.</button>
+<button data-number>0</button>
+<button data-eaquls class="gilaki">=</button>
+</div>
 <br>
 <br>
 <br>
@@ -56,6 +75,6 @@
     </div>
 </div>
 </div> 
-
+<script src="calculator.js"></script>
 </body>
 </html>
