@@ -8,13 +8,23 @@
 </head>
 <body>
 <h1  style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: rgb(255,202,24);">სიმკვრივის მთვლელი(კგ/მ³)</h1>
-<input  placeholder="მასა" style="border-radius: 5px;width: 100px; height: 40px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30px; background-color: rgb(255,202,24); color: rgb(146, 28, 236)" type="number" id='masa'>    
-<input   placeholder="მოცულობა" style="border-radius: 5px;width: 170px; height: 40px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30px; background-color: rgb(255,202,24); color: rgb(146, 28, 236)" type="number" id='moculoba'>
-<p style="color: rgb(146, 28, 236); font-size: 30px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">სიმკვრივე: </p><p style="font-size: 30px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:rgb(255,202,24);" id='pasuxi'></p>
-<button onclick="simkvrivisgamotvla()" style="border-radius: 5px;width: 350px; height: 45px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30px; background-color:rgb(146, 28, 236);">სიმკვრივის გამოთვლა</button>
+<label for="" style="color:rgb(146, 28, 236) ;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30px;">მასა:</label>
+<br>
+<input style="border-radius: 5px;width: 100px; height: 40px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30px; background-color: rgb(255,202,24); color: rgb(146, 28, 236)" type="number" id='masa'>
+<br>
+
+<label for="" style="color: rgb(146, 28, 236);font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30px;">მოცულობა:</label> 
+<br>
+<input style="display: inline;;border-radius: 5px;width: 170px; height: 40px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30px; background-color: rgb(255,202,24); color: rgb(146, 28, 236)" type="number" id='moculoba'>
+<br>
+<br>
+<p style="color: rgb(146, 28, 236); font-size: 30px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;display: inline;">სიმკვრივე: </p><p style="font-size: 30px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color:rgb(255,202,24);display: inline;" id='pasuxi'></p>
+<br>
+<br>
+<button onclick='simkvrivisgamotvla()'style="border-radius: 5px;width: 200px; height: 45px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30px; background-color:rgb(146, 28, 236);display: block;color: rgb(255,202,24);">გამოთვლა</button>
 <br>
 <br>
 <hr>
-<script>src="fizika.js"</script>
+<script src="fizika.js"></script>
 </body>
 </html>
