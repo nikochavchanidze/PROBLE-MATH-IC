@@ -13,7 +13,6 @@ class Calculator{
     delete(){
         this.operent1 = this.operent1.toString().slice(0,-1)
         this.operent2 = this.operent2.toString().slice(0,-1)
-
     }
     apperndnumber(number) {
         if (number === '.' && this.operent1.includes('.')) return
@@ -41,7 +40,7 @@ class Calculator{
             case '-':
                 computation = prev - current
                 break
-            case '✖':
+            case 'x':
                 computation = prev * current
                 break
 
@@ -54,25 +53,7 @@ class Calculator{
         this.operent1 = computation
         this.operation = undefined
         this.operent2 = ''
-
     }
-    getDisplayNumber(number) {
-        const stringNumber = number.toString()
-        const integerDigits = parseFloat(stringNumber.split('.')[0])
-        const decimalDigits = stringNumber.split('.')[1]
-        let integerDisplay
-        if (isNaN(integerDigits)) {
-          integerDisplay = ''
-        } else {
-          integerDisplay = integerDigits.toLocaleString('en', { maximumFractionDigits: 0 })
-        }
-        if (decimalDigits != null) {
-          return `${integerDisplay}.${decimalDigits}`
-        } else {
-          return integerDisplay
-        }
-      }
-    
     updatedisplai(){
         this.operent1TextElement.innerText = this.operent1 
         if(this.operation != null)  {
@@ -83,8 +64,6 @@ class Calculator{
           }
     }
 }
-
-
 const numberbuttons = document.querySelectorAll('[data-number]')
 const operationbuttons = document.querySelectorAll('[data-operation]')
 const eaqulsbuttons = document.querySelector('[data-eaquls]')
