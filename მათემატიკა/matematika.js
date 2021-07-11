@@ -17,16 +17,16 @@ function pitagora(){
 function martivitushedgenili(){
     var ricxvims = document.getElementById('martivia?').value;
     var shedgenilia = false;
-    for(i=0; i< ricxvims;i++){
-        if(ricxvims%i==0 && i!==1){
+    for(i=2; i< ricxvims;i++){
+        if(ricxvims%i==0){
             shedgenilia = true;
             break;
         }
     }
-    if(shedgenilia = true){
-        document.getElementById('pasuxisadgilims').innerHTML = ('შედგენილია');
-    }else if(shedgenilia = false){
-        document.getElementById('pasuxisadgilims').innerHTML = ('მარტივია');
+    if(shedgenilia === true){
+        document.getElementById('pasuxisadgilims').innerHTML = 'შედგენილია';
+    }else if(shedgenilia === false){
+        document.getElementById('pasuxisadgilims').innerHTML = 'მარტივია';
     }
 }
 //მინდა დაბეჭდოს რიცხვი მარტივია თუ შედგენილი
