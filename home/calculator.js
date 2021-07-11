@@ -5,13 +5,14 @@ class Calculator{
         this.clear()
     }
     clear(){
-        this.operent2 = ''
+        this.operent2 = ','
         this.operent1 = ''
         this.operation = undefined
 
     }
     delete(){
         this.operent1 = this.operent1.toString().slice(0,-1)
+        this.operent2 = this.operent2.toString().slice(0,-1)
 
     }
     apperndnumber(number) {
@@ -55,12 +56,32 @@ class Calculator{
         this.operent2 = ''
 
     }
+    getDisplayNumber(number) {
+        const stringNumber = number.toString()
+        const integerDigits = parseFloat(stringNumber.split('.')[0])
+        const decimalDigits = stringNumber.split('.')[1]
+        let integerDisplay
+        if (isNaN(integerDigits)) {
+          integerDisplay = ''
+        } else {
+          integerDisplay = integerDigits.toLocaleString('en', { maximumFractionDigits: 0 })
+        }
+        if (decimalDigits != null) {
+          return `${integerDisplay}.${decimalDigits}`
+        } else {
+          return integerDisplay
+        }
+      }
+    
     updatedisplai(){
-        this.operent1TextElement.innerText = this.operent1   
-        this.operent2TextElement.innerText = this.operent2
+        this.operent1TextElement.innerText = this.operent1 
+        if(this.operation != null)  {
+            this.operent2TextElement.innerText = 
+                `${this.operent2} ${this.operation}`
+        }else {
+            this.operent2TextElement.innerText = ''
+          }
     }
-
-
 }
 
 
