@@ -14,3 +14,19 @@ function pitagora(){
     var hip = Math.sqrt( hipkvad );
     document.getElementById('pasuxisadgilip').innerHTML = hip;
 }
+function martivitushedgenili(){
+    var ricxvims = document.getElementById('martivia?').value;
+    var shedgenilia = false;
+    for(i=0; i< ricxvims;i++){
+        if(ricxvims%i==0 && i!==1){
+            shedgenilia = true;
+            break;
+        }
+    }
+    if(shedgenilia = true){
+        document.getElementById('pasuxisadgilims').innerHTML = ('შედგენილია');
+    }else if(shedgenilia = false){
+        document.getElementById('pasuxisadgilims').innerHTML = ('მარტივია');
+    }
+}
+//მინდა დაბეჭდოს რიცხვი მარტივია თუ შედგენილი
