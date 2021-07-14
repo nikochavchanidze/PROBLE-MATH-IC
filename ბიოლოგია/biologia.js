@@ -33,7 +33,7 @@ function bavshvisTmisFeri() {
     }else if((dedis == 'yavq') && (mamis == 'cisk')){
         document.getElementById('baganastvalisferi').innerHTML=(' ბავშვის თვალის ფერი იქნება 50% ყავისფერი, 50% ცისფერი')
     }else if((dedis == 'mwvq') && (mamis == 'cisk')){
-        document.getElementById('baganastvalisferi').innerHTML=(' ბავშვის თვალის ფერი იქნება 99% ცისფერი, 1% მწვანე')
+        document.getElementById('baganastvalisferi').innerHTML=(' ბავშვის თვალის ფერი იქნება 50% ცისფერი, 50% მწვანე')
     }else if((dedis == 'yavq') && (mamis == 'mwvk')){
         document.getElementById('baganastvalisferi').innerHTML=(' ბავშვის თვალის ფერი იქნება 35% მწვანე, 15% ცისფერი, 50% ყავისფერი')
     }else if((dedis == 'cisq') && (mamis == 'yavk')){
