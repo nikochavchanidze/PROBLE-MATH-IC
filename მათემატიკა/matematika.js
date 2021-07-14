@@ -24,9 +24,8 @@ function martivitushedgenili(){
         }
     }
     if(shedgenilia === true){
-        document.getElementById('pasuxisadgilims').innerHTML = 'შედგენილია';
+        document.getElementById('pasuxisadgilims').innerHTML = 'შედგენილი';
     }else if(shedgenilia === false){
-        document.getElementById('pasuxisadgilims').innerHTML = 'მარტივია';
+        document.getElementById('pasuxisadgilims').innerHTML = 'მარტივი';
     }
 }
-//მინდა დაბეჭდოს რიცხვი მარტივია თუ შედგენილი
