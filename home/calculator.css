@@ -34,6 +34,7 @@
     padding: 20px;
     word-wrap: break-word;
     word-break: break-all;
+    al
 }
 .operand1{
     box-sizing: border-box;
@@ -57,4 +58,8 @@
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
+}
+html, body{
+    background-image: url(Screenshot\ \(653\).png);
+    justify-content: flex;
 }

@@ -1,0 +1,64 @@
+html {
+    font-family: helvetica, serif;
+    color: white;
+}
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    text-align:start;
+}
+h4 {
+    font-weight: 100;
+    font-size: 28px;
+    margin: 0;
+    padding: 0em 8em 0em 1em;
+}
+.btn_one {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    border: 1px #fbbc05 solid;
+    padding: 3em 1em;
+    border-radius: 100px;   
+}
+
+.btn div {
+    height: 4px;
+    background-color: rgb(255, 187, 0);
+    margin: 5px 0;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+.btn {
+    width: 30px;
+    display: flex;
+    margin: 1em 0 0 1em;
+    
+}
+.one {
+    width: 30px;
+}
+.two {
+    width: 20px;
+}
+.three {
+    width: 25px;
+}
+
+.btn:hover div {
+    width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
