@@ -18,7 +18,7 @@
     height: 70px;
 }
 .calculator > button:hover{
-    background-color: rgba(206, 154, 255,0.99);
+    background-color: rgba(208, 165, 241, 0.99);
 
 }
 .output{
