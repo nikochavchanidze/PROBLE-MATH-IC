@@ -18,7 +18,7 @@
     height: 70px;
 }
 .calculator > button:hover{
-    background-color: rgba(206, 154, 255, 0.815);
+    background-color: rgba(206, 154, 255,0.99);
 
 }
 .output{
@@ -34,7 +34,6 @@
     padding: 20px;
     word-wrap: break-word;
     word-break: break-all;
-    al
 }
 .operand1{
     box-sizing: border-box;
