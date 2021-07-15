@@ -10,16 +10,12 @@ html {
 h4 {
     font-weight: 100;
     font-size: 28px;
-    margin: 0;
-    padding: 0em 8em 0em 1em;
 }
 .btn_one {
     text-decoration: none;
     color: white;
     font-weight: 100;
-    border: 1px #fbbc05 solid;
-    padding: 3em 1em;
-    border-radius: 100px;   
+    border: 3px #fbbc05 solid; 
 }
 
 .btn div {
@@ -27,7 +23,8 @@ h4 {
     background-color: rgb(255, 187, 0);
     margin: 5px 0;
     border-radius: 25px;
-    transition: 0.3s;
+    transition: 0.4s;
+    border-bottom-left-radius: ;
 }
 .btn {
     width: 30px;
