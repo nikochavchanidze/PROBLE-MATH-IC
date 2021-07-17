@@ -22,3 +22,27 @@ function sichkare(){
     var sichqare = x/y;
     document.getElementById('pasuxiC').innerHTML=sichqare;
 }
+function dro(){
+    var x=document.getElementById('mandzili1').value;
+    var y=document.getElementById('sichqare').value;
+    var dro=x/y;
+    document.getElementById('pasuxiD').innerHTML=dro;
+}
+function mandzili(){
+    var x=document.getElementById('drom').value;
+    var y=document.getElementById('sichkare').value;
+    var mandzili=x*y;
+    document.getElementById('pasuxiE').innerHTML=mandzili;
+}
+function masa(){
+    var x=document.getElementById('simkvrivem').value;
+    var y=document.getElementById('moculobam').value;
+    var masa = x*y;
+    document.getElementById('pasuxiF').innerHTML = masa;
+}
+function moculobaa(){
+    var x = document.getElementById('simkvrivemm').value;
+    var y = document.getElementById('masam').value;
+    var moculoba = x/y;
+    document.getElementById('pasuxiG').innerHTML = moculoba;
+}

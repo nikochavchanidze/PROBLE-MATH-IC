@@ -3,18 +3,18 @@ function akvadrateba() {
     var xarisx = document.getElementById('xarisxi').value;
     document.getElementById('pasuxisadgili').innerHTML = a**xarisx;
 }
-function dafesveba(){
+function dafesveba() {
     var ricxvif = document.getElementById('ricxvif').value;
     document.getElementById('pasuxisadgilif').innerHTML = Math.sqrt( ricxvif );
 }
-function pitagora(){
+function pitagora() {
     var kateti1 = document.getElementById('kateti1').value;
     var kateti2 = document.getElementById('kateti2').value;
     var hipkvad = (kateti1*kateti1) + (kateti2*kateti2);
     var hip = Math.sqrt( hipkvad );
     document.getElementById('pasuxisadgilip').innerHTML = hip;
 }
-function martivitushedgenili(){
+function martivitushedgenili() {
     var ricxvims = document.getElementById('martivia?').value;
     var shedgenilia = false;
     for(i=2; i< ricxvims;i++){
@@ -28,4 +28,29 @@ function martivitushedgenili(){
     }else if(shedgenilia === false){
         document.getElementById('pasuxisadgilims').innerHTML = 'მარტივი';
     }
+}
+function fartobi() {
+    var x=document.getElementById('sigrdze').value;
+    var y=document.getElementById('sigane').value;
+    var fartobi=x*y;
+    document.getElementById('pasuxiA').innerHTML = fartobi;
+}
+function moculobaaa() {
+    var x =document.getElementById('sigrdzem').value;
+    var y =document.getElementById('siganem').value;
+    var k =document.getElementById('simagle').value;
+    var moculobaa = x*y*k;
+    document.getElementById('pasuxiB').innerHTML = moculobaa;
+}
+function perimetri() {
+    var x =document.getElementById('gverdi1').value;
+    var y =document.getElementById('gverdi2').value;
+    var z =document.getElementById('gverdi3').value;
+    var l =document.getElementById('gverdi4').value;
+    var xx = parseInt(x);
+    var yy = parseInt(y);
+    var zz = parseInt(z);
+    var ll = parseInt(l);
+    var perimetrii = xx + yy + zz + ll;
+    document.getElementById('pasuxiC').innerHTML = perimetrii;
 }
