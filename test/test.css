@@ -1,48 +1,47 @@
-html {
-    font-family: helvetica, serif;
-    color: white;
-}
 .wrapper {
     width: 100%;
     height: 100vh;
-    text-align:start;
-}
-h4 {
-    font-weight: 100;
-    font-size: 28px;
+    text-align: center;
+    
 }
 .btn_one {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: 100;
-    border: 3px #fbbc05 solid; 
+    border: 1px #fbbc05 solid;
+    padding: 1em 3em;
+    border-radius: 100px;  
+    
 }
 
 .btn div {
     height: 4px;
-    background-color: rgb(255, 187, 0);
+    background-color: #fbbc05;
     margin: 5px 0;
     border-radius: 25px;
-    transition: 0.4s;
+    justify-content: flex-end;
+    
 }
 .btn {
     width: 30px;
-    display: flex;
+    display: block;
     margin: 1em 0 0 1em;
+
 }
 .one {
     width: 30px;
+   
 }
 .two {
     width: 20px;
+    
 }
 .three {
     width: 25px;
+    
 }
 
-.btn:hover div {
-    width: 30px;
-}
+
 
 
 
