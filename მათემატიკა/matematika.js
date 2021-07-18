@@ -54,3 +54,19 @@ function perimetri() {
     var perimetrii = xx + yy + zz + ll;
     document.getElementById('pasuxiC').innerHTML = perimetrii;
 }
+function kvadratul(){
+    var a = document.getElementById('a').value;
+    var b = document.getElementById('b').value;
+    var c = document.getElementById('c').value;
+    var d = (b**2) - (4*a*c);
+    var am = 1;
+    if(d<0){
+        am=0;
+    }else if(d>0){
+        am=2;
+    }else{
+        am=1;
+    }
+    
+    document.getElementById('pasuxisadgilik').innerHTML = am;
+}
