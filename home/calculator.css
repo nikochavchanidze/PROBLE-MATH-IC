@@ -19,6 +19,7 @@
 }
 .calculator > button:hover{
     background-color: rgba(208, 165, 241, 0.99);
+    color: rgb(75, 13, 122);
 
 }
 .output{
